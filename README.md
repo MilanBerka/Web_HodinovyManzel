@@ -78,9 +78,13 @@ Projekt je již inicializován v Gitu s výchozí větví `main`.
 
 ---
 
-## 🌐 Možnosti bezplatného nasazení (Hosting)
+## 🌐 Nasazení na GitHub Pages
 
-- **GitHub Pages**:
-  - V nastavení repozitáře na GitHubu (`Settings` -> `Pages`) vyberte větev `main` a složku `/ (root)`. Váš web bude během 1–2 minut dostupný online.
-- **Netlify / Vercel**:
-  - Stačí připojit GitHub repozitář nebo složku přetáhnout metodou drag & drop do Netlify Drop.
+- **Živá adresa webu**: [https://milanberka.github.io/Web_HodinovyManzel/](https://milanberka.github.io/Web_HodinovyManzel/)
+- **Nastavení repozitáře**:
+  1. Otevřete [Nastavení GitHub Pages](https://github.com/MilanBerka/Web_HodinovyManzel/settings/pages).
+  2. V sekci **Build and deployment** zvolte **Source**:
+     - buď **GitHub Actions** *(doporučeno – workflow `.github/workflows/deploy.yml` je již připraven v repozitáři)*
+     - nebo **Deploy from a branch** (větev `main`, složka `/ (root)`).
+  3. Během cca 1 minuty je web online na adrese: `https://milanberka.github.io/Web_HodinovyManzel/`.
+
